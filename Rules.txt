@@ -1,0 +1,70 @@
+Rules and guidelines:
+
+Engine using: 
+(preferably unity or unreal engine)
+
+Code language: 
+(we can install a plugin for unity that supports python, unreal engine supports python)
+
+Game type:
+It has to be multiplayer
+
+Four Pillars of Object Oriented Programming:
+Abstraction
+Quite simply, abstraction is the concept of wrapping up complex actions in simple verbs. Describe each thing you’ve abstracted clearly, and hide the complexity. Someone can always pop the hood if they need to.
+The append and insert methods of your data structures. Instead of calling keep_going_until_you_find_a node_that_is_nil_and_create_a_new_node_and_fill_it_with_this_data, we can call append or insert
+Encapsulation
+As much as you can, keep state and logic internal. This can mean have as few attr readers as possible, or as few instance vars as possible. The less you have to keep track off at any given time, the better.
+Abstraction and encapsulation support each other. If you don’t group like things together, then you’re going to have a harder time abstracting them. They’ll have to be passing data back and forth.
+refers to the bundling of data with the methods that operate on that data. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.
+Inheritance
+Classes can have parent classes. Child classes will inherit all of the behavior and attributes of the parent class. Child classes can then choose to overwrite some of those as necessary.
+Minitest. Your tests are classes. Every test file you create is a new class. You’re using methods like assert and refute, and when you create a setup method, you don’t have to call it. The parent class calls it. There are all kinds of behavior that your tests have because they inherit from Minitest::Test
+Polymorphism
+Defined as “the condition of occurring in several different forms”. Basically, it just means that we can call the same method on different objects.
+Strings and arrays both have length. They both return integers, and they both mean roughly the same thing, but the internal operation differs between the two classes.
+In the inheritance lesson, you saw that all employee types had a total_compensation method, but the behavior of that method differs.
+
+Written Requirements:
+1. Problem Statement (~150 words) 
+a. Clearly define the problem that the program is intended to solve 
+b. Also express who might benefit from this problem being solved (elderly, kids, anyone) 2. Data Structure Section (~150 words without code) 
+a. Screenshot or copy and paste a section of code that uses a data structure of some sort (List, Array, Queue, Stack, Tree, etc.) 
+b. Describe why the team decided to select this data structure 
+c. Were any other data structures considered for this role? 
+3. Algorithm Section (~200 words without code) 
+a. Screenshot or copy and paste two sections of code - one section that shows a student-made function or procedure and another section that shows the function being used.
+b. Explain in general terms how the algorithm works and what purpose it solves within the team’s code 
+c. What was the thought process behind putting the algorithm into its own function instead of just keeping it within the rest of the code? 
+d. For the second section of code, explain where the function is being called and how it fulfills the algorithm's purpose.
+ 4. Four Pillars of Object Oriented Programming
+ a. Screenshot or copy and paste sections of code that demonstrate each of the four pillars of encapsulation, abstraction, inheritance and polymorphism.
+
+b. Describe the advantages and disadvantages of using these pillars within your code.
+
+Presentation Requirements:
+1. Student teams are required to give an approximately five minute presentation to the judges as well as the following competitors. 
+The presentation need to have
+The selected Problem
+Must have a working demmo
+Summery of how the solution (the game) solves the problem
+Reflection on how the project could be better
+After the presentation there is going to be a 3 minute QNA form the judges to clarify things in the presentation
+Presataion tools such as powerpoints and posters will not be giving points. Points are for the presentation of the product only
+
+
+Disqualification:
+Using code that was previously written by students prior to this competition is NOT allowed.
+Example taking a school project from last year and just adding extra features
+Example taking a school project from last year and just adding extra features 
+sorting algorithms must be implemented by hand.
+ All libraries must also be sources with links in comments to where the code was found
+Taking code from open source sites such as github is NOT allowed.
+This is the team’s project, not just adding on to something you found online
+
+
+
+
+
+
+
